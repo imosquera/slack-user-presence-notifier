@@ -8,8 +8,8 @@
   },
   "author": "Anwar Ziani <anwaar.ziani@gmail.com>",
   "license": "MIT",
-  "slack-user-presence-notifier": {
-    "slack": "index.js"
+  "bin": {
+    "slack-user-presence-notifier": "index.js"
   },
   "keywords": [
     "slack",
