@@ -1,0 +1,27 @@
+{
+  "name": "slack-user-presence-notifier",
+  "version": "1.0.0",
+  "description": "Display desktop notifications when a user goes online/offline",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anwar Ziani <anwaar.ziani@gmail.com>",
+  "license": "MIT",
+  "slack-user-presence-notifier": {
+    "slack": "index.js"
+  },
+  "keywords": [
+    "slack",
+    "slack-presence",
+    "slackbot",
+    "notifications"
+  ],
+  "dependencies": {
+    "@slack/client": "^3.5.4",
+    "chalk": "^1.1.3",
+    "minimist": "^1.2.0",
+    "moment": "^2.14.1",
+    "node-notifier": "^4.6.1"
+  }
+}
