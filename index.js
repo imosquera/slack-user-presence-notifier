@@ -22,8 +22,8 @@ var CONFIG = {
 
 if (argv.help || argv.h || argv.usage) {
   const usage = `
-  --me     : Send notification when you change presence yourself.
-  --token  : Set slack token, information on how to get a token
+  --me     : Send notification when your presence changes (could be useful when network goes off/on).
+  --token  : Set your per team slack token, information on how to get a token
              can be found here (https://api.slack.com/docs/oauth-test-tokens).
 
   --help   : to show this information.
