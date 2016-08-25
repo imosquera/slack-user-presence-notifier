@@ -1,6 +1,6 @@
 {
   "name": "slack-user-presence-notifier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Display desktop notifications when a user goes online/offline",
   "main": "index.js",
   "scripts": {
