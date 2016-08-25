@@ -4,13 +4,11 @@
 
 Display desktop notifications when a user goes online/offline
 
+<img src="https://cl.ly/hGKP/Screen%20Shot%202016-08-25%20at%2011.13.54%20PM.png" width="400">
 
-![](https://cl.ly/hGKP/Screen%20Shot%202016-08-25%20at%2011.13.54%20PM.png =50x)
+<img src="https://cl.ly/hFuR/Screen%20Shot%202016-08-25%20at%2011.16.23%20PM.png" width="400">
 
-![](https://cl.ly/hFuR/Screen%20Shot%202016-08-25%20at%2011.16.23%20PM.png =50x)
-
-![](https://cl.ly/hGTy/Screen%20Shot%202016-08-25%20at%2011.19.02%20PM.png =50x)
-
+<img src="https://cl.ly/hGTy/Screen%20Shot%202016-08-25%20at%2011.19.02%20PM.png" width="400">
 
 ## Install
 
