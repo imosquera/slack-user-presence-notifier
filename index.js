@@ -65,7 +65,7 @@ function createRTM(token, destToken) {
   rtm.on(RTM_EVENTS.MESSAGE, function(data) {
     console.info("data: " + util.inspect(data));
 
-    ignorable_messages = new Set(['bot_message', 'message_changed']);
+    ignorable_messages = new Set(['message_replied','bot_message', 'message_changed']);
     if (ignorable_messages.has(data.subtype)) {
       console.info("Ignoring message: "+ data.subtype);
       return;
