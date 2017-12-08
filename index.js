@@ -72,6 +72,11 @@ function createRTM(token, destToken) {
     }
 
     let user = rtm.dataStore.getUserById(data.user);
+    if (user == null || user == undefined) {
+      console.log("user is null/undefined, not processing...")
+      return;
+    }
+
     let channel = rtm.dataStore.getChannelById(data.channel);
     var channelInfo = "";
     if (channel != undefined) {
